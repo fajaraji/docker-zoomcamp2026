@@ -11,6 +11,5 @@ print(df.head())
 df.to_parquet(f"output_day_{sys.argv[1]}.parquet")
 print(f'halo pipeline, month = {month}')
 
-parqu = pd.read_parquet(f"output_day_{sys.argv[1]}.parquet")
-print(parqu)
+
 
