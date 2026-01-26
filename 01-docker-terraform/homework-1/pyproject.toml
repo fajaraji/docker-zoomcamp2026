@@ -1,0 +1,17 @@
+[project]
+name = "zoomcamp-homework"
+version = "0.1.0"
+description = "Homework Module 1 DE Zoomcamp"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click",
+    "pandas",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "pyarrow",
+    "fastparquet",
+]
+
+[tool.uv]
+dev-dependencies = []
